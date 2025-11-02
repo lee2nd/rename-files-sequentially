@@ -19,7 +19,7 @@ _src = r"G:\其他電腦\Frank MSI Laptop V1\照片(準備棄用)\7. 面試 & �
 for filename in os.listdir(_src):
     # 取得副檔名（不分大小寫）
     name, ext = os.path.splitext(filename)
-    if ext.lower() in [".jpg", ".png"]:
+    if ext.lower() in [".jpg", ".png", ".jpeg"]:
         old_path = os.path.join(_src, filename)
         new_path = os.path.join(_src, name + ".jpg")
 
