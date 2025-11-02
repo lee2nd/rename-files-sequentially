@@ -34,8 +34,6 @@ for filename in file_list:
 
 
 # 不改名版
-_src = r"G:\其他電腦\Frank MSI Laptop V1\照片(準備棄用)\7. 面試 & 培訓\AWS 培訓"
-
 _src = r"G:\其他電腦\Frank MSI Laptop V1\照片(準備棄用)\1. Family"
 
 for filename in os.listdir(_src):
